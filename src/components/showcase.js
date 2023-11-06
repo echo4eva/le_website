@@ -31,7 +31,7 @@ export default function Showcase(props) {
                     <p>{props.internship}</p>
                     <p className={utilStyles.pWrap}>
                     {props.tech?.map((name) => ( 
-                        <span className={utilStyles.spanSpace}>{name}</span>
+                        <span className={utilStyles.spanSpace} key={name.id}>{name}</span>
                     ))}
                     </p>
                     <p>{props.desc}</p>

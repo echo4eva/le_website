@@ -43,7 +43,7 @@ export default function Home() {
     <div className={styles.container}>
       <Layout>
         <Head>
-          <title>Jericho's Portfolio</title>
+          <title>Jericho&apos;s Portfolio</title>
         </Head>
           <Introduction />
           <Showcase {...showcase_info[0]}/>
