@@ -117,7 +117,7 @@
 
 @media screen and (max-width: 920px) {
     .container {
-        margin: 1rem 1rem 2rem 1rem;
+        margin: 1rem 1rem 4rem 1rem;
     }
 
     .textUnderName {
@@ -126,12 +126,5 @@
 
     .socials {
         margin-bottom: 1rem;
-    }
-
-}
-
-@media screen and (max-width: 425px) {
-    .container {
-        margin: 1rem 1rem 3rem 1rem;
     }
 }
