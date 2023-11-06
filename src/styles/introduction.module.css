@@ -124,6 +124,10 @@
         margin-top: 1rem;
     }
 
+    .socials {
+        margin-bottom: 1rem;
+    }
+
 }
 
 @media screen and (max-width: 425px) {

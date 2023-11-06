@@ -28,7 +28,7 @@ export default function Showcase(props) {
                     />
                 </div>
                 <div className={styles.showcaseDescriptionContainer}>
-                    <p>{props.internship}</p>
+                    <p><b>{props.internship}</b></p>
                     <p className={utilStyles.pWrap}>
                     {props.tech?.map((name) => ( 
                         <span className={utilStyles.spanSpace} key={name.id}>{name}</span>
