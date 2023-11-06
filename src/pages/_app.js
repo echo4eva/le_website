@@ -1,5 +1,12 @@
-import '@/styles/globals.css'
+import { REM } from 'next/font/google';
+import '../styles/globals.css';
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const font = REM({ subsets: ['latin'] })
+
+export default function MyApp({ Component, pageProps }) {
+    return (
+        <main className = {font.className}>
+            <Component {...pageProps} />
+        </main>
+    );
+  }

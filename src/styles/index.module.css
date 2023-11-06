@@ -1,0 +1,6 @@
+.container {
+    background-color: white;
+    /* background-image: url('../../public/background1.jpg'); */
+    background-size: contain;
+    background-repeat:no-repeat;
+}
