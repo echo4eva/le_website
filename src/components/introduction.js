@@ -2,6 +2,7 @@ import Layout from './layout';
 import Image from 'next/image';
 import profilePicture from '../../public/pfp.jpg';
 import gitHubPicture from '../../public/github.svg';
+import blogPicture from '../../public/blog.svg';
 import profileFlag from '../../public/flag.gif';
 import linkedInPicture from '../../public/linkedin.svg';
 import pythonPicture from '../../public/python.png';
@@ -15,6 +16,7 @@ const location = "California, United States";
 const name = "Jericho Imperial";
 const linkedInLink = "https://www.linkedin.com/in/jerichoimperial/";
 const gitHubLink = "https://github.com/echo4eva";
+const blogLink = "https://blog4eva.vercel.app/";
 
 export default function Introduction() {
     return (
@@ -67,6 +69,16 @@ export default function Introduction() {
                                 }}
                             />
                             <a href={linkedInLink} target='_blank'>LinkedIn</a>
+                        </li>
+                        <li className={utilStyles.listHorizontal}>
+                            <Image
+                                className = {styles.socialsColor}
+                                src = {blogPicture}
+                                style = {{
+                                    marginRight: ('0.5rem')
+                                }}
+                            />
+                            <a href={blogLink}>Blog</a>
                         </li>
                     </ul>
                 </div>

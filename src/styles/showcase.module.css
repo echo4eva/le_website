@@ -68,3 +68,10 @@
     }
 
 }
+
+@media screen and (max-width: 350px) {
+    .container {
+        padding-top: 1rem;
+    }
+
+}
