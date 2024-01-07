@@ -78,7 +78,7 @@ export default function Introduction() {
                                     marginRight: ('0.5rem')
                                 }}
                             />
-                            <a href={blogLink}>Blog</a>
+                            <a href={blogLink} target='_blank'>Blog</a>
                         </li>
                     </ul>
                 </div>
